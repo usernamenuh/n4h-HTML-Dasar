@@ -22,6 +22,6 @@ Animasi ini cocok untuk splash screen, logo, atau heading website bertema modern
 Project "Web Me" cocok untuk latihan membuat website profil pribadi dengan HTML dan CSS dasar.
 
 <p align="center">
-  <img src="foto.png" alt="Preview Animasi" width="400"><br>
-  <a href="vidio.mp4">Lihat Video</a>
+
+[![Lihat Video](foto.png)](vidio.mp4)
 </p>
