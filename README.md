@@ -19,5 +19,5 @@ Animasi ini cocok untuk splash screen, logo, atau heading website bertema modern
 
 <p align="center">
 
-<img src="foto.png" width="100%" style="max-width:600px;">
+<img src="vidio.mp4" width="100%">
 </p>
