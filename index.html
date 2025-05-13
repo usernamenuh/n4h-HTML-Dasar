@@ -44,7 +44,6 @@
   </style>
 </head>
 <body>
-
     <div class="ayome-wrapper">
         <h1 class="ayome-text">
           <span>A</span>
@@ -54,6 +53,44 @@
           <span>E</span>
         </h1>
       </div>
+      <script>
+        const text = document.querySelector('.ayome-text');
+        const letters = text.textContent.split('');
+        text.textContent = '';
 
+        letters.forEach(letter => {
+          const span = document.createElement('span');
+          span.textContent = letter;
+          text.appendChild(span);
+        });
+        const spans = text.querySelectorAll('span');
+        spans.forEach((span, index) => {
+          span.style.animationDelay = `${index * 0.1}s`;
+        });
+        text.style.opacity = 1;
+        text.style.transform = 'translateY(0)';
+        text.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        text.style.opacity = 1;
+        text.style.transform = 'translateY(0)';
+        text.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        text.style.opacity = 1;
+        text.style.transform = 'translateY(0)';
+        text.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        text.style.opacity = 1;
+        text.style.transform = 'translateY(0)';
+        text.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        text.style.opacity = 1;
+        text.style.transform = 'translateY(0)';
+        text.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        text.style.opacity = 1;
+        text.style.transform = 'translateY(0)';
+        text.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        text.style.opacity = 1;
+        text.style.transform = 'translateY(0)';
+        text.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        text.style.opacity = 1;
+        text.style.transform = 'translateY(0)';
+        text.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+      </script>
 </body>
 </html>
