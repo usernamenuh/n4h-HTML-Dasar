@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AYOME Animation</title>
+  <style>
+.ayome-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: transparent;
+  overflow: hidden;
+}
+
+.ayome-text span {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: 'Arial Black', sans-serif;
+  color: transparent;
+  background-image: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  animation: animate 5s ease-in-out infinite, popIn 0.6s ease forwards;
+  display: inline-block;
+  opacity: 0;
+}
+
+.ayome-text span:nth-child(1) { animation-delay: 0.2s; }
+.ayome-text span:nth-child(2) { animation-delay: 0.4s; }
+.ayome-text span:nth-child(3) { animation-delay: 0.6s; }
+.ayome-text span:nth-child(4) { animation-delay: 0.8s; }
+.ayome-text span:nth-child(5) { animation-delay: 1s; }
+
+@keyframes animate {
+  0% { background-position: 0%; }
+  100% { background-position: 400%; }
+}
+
+@keyframes popIn {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+  </style>
+</head>
+<body>
+
+    <div class="ayome-wrapper">
+        <h1 class="ayome-text">
+          <span>A</span>
+          <span>Y</span>
+          <span>O</span>
+          <span>M</span>
+          <span>E</span>
+        </h1>
+      </div>
+
+</body>
+</html>

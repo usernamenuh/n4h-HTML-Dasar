@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari pertama belajar HTML table & tugas kecil kecilan</title>
+</head>
+<body>
+    <table border="3" cellpadding="10" cellspacing="5"> <!-- cellpadding untuk jarak antara border dengan text, cellspacing untuk jarak antara border dengan border -->
+        <tr>
+            <th>Judul Kolom 1</th>
+            <th>Judul Kolom 2</th>
+            <th>Judul Kolom 3</th>
+        </tr>
+        <tr>
+            <td bgcolor="blue">Baris 1 kolom 1</td>
+            <td colspan="2">Gabungan kolom 2 dan 3 di baris 1</td>
+        </tr>
+        <tr>
+            <td bgcolor="orange" colspan="2">Gabungan kolom 1 dan 2 di baris 2</td>
+            <td bgcolor="pink" rowspan="2">Gabungan Baris 2 dan 3 di kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 3 kolom 1</td>
+            <td bgcolor="green">Baris 3 kolom 2</td>
+        </tr>
+    </table>
+</body>
+</html>

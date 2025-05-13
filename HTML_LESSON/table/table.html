@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ini adalah table pertama saya di HTML</title>
+</head>
+<style>
+    table, th, td {
+        border: 1px solid black; /* Untuk membuat border Table dengan warna blacl */
+        border-collapse: collapse; /* Untuk menggabungkan border yang sama jadi garis bordernya 1 */
+    }
+    th, td {
+        padding: 5px; /* padding untuk jarak antara border dengan text */
+    }
+    th {
+        text-align: center; /* Untuk membuat text di tengah */
+    }
+    td {
+        text-align: left; /* Untuk membuat text di kriri */
+    }
+</style>
+<body>
+    <table style="width:30%">   <!-- Width Untuk Lebar Table Tapi Harus di Table HTML Nya tidak bisa bareng sama TR Dan TD -->
+        <tr>
+            <th colspan="2">Nama Anime</th> <!-- colspan untuk menggabungkan 2 kolom menjadi 1 -->
+            <th>Tentang apa</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Hotaru No Morie</td> <!-- rowspan untuk menggabungkan 2 bari menjadi 1 -->
+            <td>60 Menit</td>
+            <td>Cinta</td>
+        </tr>
+        <tr>
+            <td>80 Menit</td>
+            <td>Kaka & Adik</td>
+        </tr>
+        <tr>
+            <td>Howl Moving Castle</td>
+            <td>90 Menit</td>
+            <td>Petualangan</td>
+        </tr>
+    </table>
+</body>
+</html>

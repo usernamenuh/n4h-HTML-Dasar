@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>My First Web Page</title>
+    <link rel="icon" href="html5.png" type="image/png" >
+    <link rel="stylesheet" href="style.css" type="text/css" >
+  </head>
+  <body>
+  <header>
+    <h1>My Goals for the Year</h1>
+
+    <nav aria-label="primary-navigation"> <!-- Untuk membuat navigasi -->
+      <ul> <!-- Untuk membuat list -->
+        <li> <!-- Untuk membuat list item -->
+          <a href="#html">Learn HTML</a> <!-- Untuk membuat link -->
+        </li>
+        <li>
+          <a href="#vacation">Planning a Vacation</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr>
+  <main>
+<article id="html"> <!-- Untuk membuat section -->
+    <h2>I'am Ready To Learn HTML</h2>
+    <p>This Is My Fist Web Page.</p>
+    <section>
+    <h3>HTML 5</h3>
+      <img src="freya.jpg" alt="photo freya JKT48" title="freya JKT48" width="150" height="200">   <!-- Untuk menampilkan gambar --> <!-- alt untuk menampilkan teks jika gambar tidak muncul --> <!-- title untuk menampilkan teks jika kursor diarahkan ke gambar --> <!-- width dan height untuk mengatur ukuran gambar -->
+      <figure>
+        <figcaption>Freya Nashifa Jayawardhana</figcaption>
+      <p>
+        <code>&lt;h1&gt;Freya Cantik Sekali&lt;/h1&gt;</code>
+      </p>
+    </figure>
+  </section>
+  <section>
+  <h3>My Daily Schedule</h3>
+  <p>Let me tell you how: </p>
+  <ol> <!-- Untuk membuat list dengan angka -->
+    <li>...I learn more about web dev.</li>  <!-- <li> untuk membuat list item dengann angka  -->
+    <li>...I plan out my schedule.</li>
+    <li>...I use resources from <abbr title="Roadmap.sh">Roadmap</abbr></li> <!-- ketika kurson diam di tulisan tersebut akan muncul tulisan lagi di bawah nya -->
+  </ol>
+  <aside>
+    <details>
+      <summary>Guess the <mark>numbe of hours</mark> I code per day</summary>
+      <p>I start at <time datetime="08:00"> 8 am </time>and I write code for <time datetime="PT3H"> 3 hours</time> every morning</p>
+    </details>
+  </aside>
+  <br>
+  <table> 
+    <caption>My Daily Schedule</caption>
+    <thead>
+    <tr>
+      <th>&nbsp;</th>
+      <th scope="col">Time</th>
+      <th scope="col">Activity</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th id="morning" scope="row">Morning</th>
+      <td>
+        <time datetime="08:00" >8am</time>
+        <time datetime="11:00">11pm</time>
+      </td>
+      <td>Write Code</td>
+    </tr>
+    <tr>
+      <th scope="row">Break</th>
+      <td>
+        <time datetime="11:00" >11am</time>
+        <time datetime="12:00">12pm</time>
+      </td>
+      <td>Eat Luch</td>
+    </tr>
+    <tr>
+      <th scope="row">Afternoon</th>
+      <td>
+        <time datetime="12:00" >12pm</time>
+        <time datetime="17:00">5pm</time>
+      </td>
+      <td>Study  For Other Courses</td>
+    </tr>
+    <tr>
+      <th scope="row">Evening</th>
+      <td rowspan="2">All Other Times</td> <!-- rowspan untuk menggabungkan baris -->
+      <td>Free Time</td> 
+    </tr>
+    <tr>
+      <th scope="row">Night</th>
+      <td>Sleep</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr> 
+      <td colspan="3">And that's what I do every day, 5 day a week. just eat, sleep, code ..and recharge</td>
+    </tr>
+  </tfoot>
+  </table>
+  </section>
+ </article>
+
+    <hr>
+
+    <article id="vacation">
+    <h2>I Am Also Planning a Vacation</h2>
+    <p>I' ve been working hard and <em>really need a gateway</em>.</p>  <!-- <em> untuk membuat tulisan menjadi italic/miring -->
+    <p>I live in <abbr title="contoh seperti ini">KS</abbr> so I want visit a beach.</p>
+
+    <section>
+    <h3>Place I'd Like to Visit</h3>
+    <ul> <!-- untuk membuat list bulat -->
+      <li><p>I've heard good things about the Caribben.</p>
+      <figure><img src="anindiya.jpg" alt="Anindiya JKT48" title="Member JKT48 " width="140" height="200" loading="lazy"><figcaption>Anindiya member jkt48</figcaption></figure></li> <!-- loading="lazy" untuk memuat gambar secara bertahap --> 
+      <li>
+        <p>I've heard good thinks about going here:</p>
+        <address> <!-- untuk membuat alamat -->
+          Jl. Pondoh halimun<br>
+          Kp. Bobojong RT01/RW08<br>
+        </address>
+        <figure>
+        <img src="gresel.jpg" alt="Gresella Adhalia" title="Gresella Adhalia" width="150" loading="lazy">
+        <figcaption>
+          Gresella Sopina Adhalia Lutuna
+        </figcaption>
+      </figure>
+      </li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h3>Place I Want to Avoid</h3>
+    <p>Anywhere cold. <strong>No way!</strong></p> <!-- <strong> untuk membuat tulisan menjadi bold/tebal -->
+
+    <dl> <!-- untuk membuat list dengan judul -->
+      <dt>North Pole</dt> <!-- <dt> untuk membuat judul -->
+      <dd>I hear this is <strong>cold</strong>!</dd>
+
+      <dt>South Pole</dt>
+      <dd>This is also cold.</dd>   <!-- <dd> untuk membuat isi dari judul -->
+
+      <dt>Mountain Tops</dt>
+      <dd>These are also cold.</dd>
+    </dl>
+  </section>
+  </article>
+
+  <hr>
+
+  <article id="contact"> 
+    <h2>Contact Me</h2>
+    <p>I'd really like to hear from you!</p>
+
+    <form action="https://httpbin.org./get" method="get">
+      <fieldset>
+        <legend>Personal Info</legend>
+      <p>
+      <label for="firstName">First Name:</label> <!-- <label> untuk membuat label -->
+      <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
+    </p>
+    <p>
+      <label for="lastName">Last Name:</label> <!-- <label> untuk membuat label -->
+      <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required> <!-- autofocus -->
+    </p>
+    <p>
+      <label for="password">Password:</label> <!-- <label> untuk membuat label -->
+      <input type="password" name="password" id="password" placeholder="you secret" autocomplete="on" required>
+    </p>
+    <p>
+      <label for="phone">Phone:</label> <!-- <label> untuk membuat label -->
+      <input type="tel" name="phone" id="phone"  
+      placeholder="5555555555" 
+      pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+      required> 
+    </p>
+    <p>
+      <label for="decade">Favorit Decade:</label> <!-- <label> untuk membuat label -->
+      <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+    </p>
+    <p>
+      <label for="coffee">Favorite Coffee:</label>
+      <select name="coffee" id="coffee" multiple size="3">
+        <optgroup label="Coffees">
+      <option value="reguler coffe">Reguller Coffee</option>
+      <option value="iced coffee">Iced Coffee</option>
+    </optgroup>
+    <optgroup label="Espresso Drinks">
+      <option value="latte">Latte</option>
+      <option value="capuccino">Capuccino</option>
+      <option value="cotado">Cortado</option>
+      <option value="americano">Americano</option>
+    </optgroup>
+      <option value="other">Other</option>
+    </select>
+    </p>
+<!--     <p>
+      <label for="coffee">Favorite Coffee:</label>
+      <input type="text" name="coffee" id="coffee" list="coffee-list">
+      <datalist id="coffee-list">
+    <option value="coffee">
+    <option value="latte">
+    <option value="espreso">
+    <option value="americano"> 
+    <option value="other"> 
+    </datalist>
+    </p> -->
+  </fieldset>
+  <br>
+  <fieldset> 
+    <legend>What is your favorite food</legend>
+    <p>
+      <input type="radio" name="food" id="tacos" value="tacos" required>
+      <label for="tacos">Tacos</label>
+    </p>
+    <p>
+      <input type="radio" name="food" id="pizza" value="pizza" required>
+      <label for="pizza">Pizza</label>
+    </p>
+    <p>
+      <input type="radio" name="food" id="other" value="other" required>
+      <label for="other">Other</label>
+    </p>
+  </fieldset>
+  <fieldset>
+    <legend>Do you have pets</legend>
+    <p>
+      <input type="checkbox" name="pets" id="dog" value="dog">
+      <label for="dog">Dog</label>
+    </p>
+    <p>
+      <input type="checkbox" name="pets" id="cat" value="cat">
+      <label for="cat">Cat</label>
+    </p>
+    <p>
+      <input type="checkbox" name="pets" id="fish" value="fish">
+      <label for="fish">fish</label>
+    </p>
+    <p>
+      <input type="checkbox" name="pets" id="otherPet" value="otherPet">
+      <label for="otherPet">Other</label>
+    </p>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Send Me A Note</legend>
+    <label for="message">Your Massage:</label> <!-- for/id -->
+    <br>
+    <textarea name="message" id="massage" cols="55" rows="10" placeholder="Type your massage here"></textarea> <!-- <textarea> untuk membuat text area -->
+  </fieldset>
+  <br>
+  <button type="submit">Submit</button> <!-- <button> untuk membuat tombol -->
+  <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Posr</button> <!-- <button> untuk membuat tombol -->
+  <button type="reset">Reset</button> <!-- <button> untuk membuat tombol -->
+    </form>
+  </article>
+</main>
+    <hr>
+    <footer>
+      <p>
+          &lt;&lt;&lt; &copy; <a href="about.html">Usernamnuh</a> &gt;&gt;&gt; <!-- &lt; untuk membuat tanda < dan &gt; untuk membuat tanda > -->
+      </p>
+      <p>
+          <a href="#">Back to top</a>
+      </p>
+    </footer>
+  </body>
+</html>
