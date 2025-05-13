@@ -17,6 +17,7 @@ Halaman ini menampilkan animasi teks "AYOME" dengan efek gradasi warna pelangi d
 ## Keterangan
 Animasi ini cocok untuk splash screen, logo, atau heading website bertema modern dan colorful.
 
-<p align="center"> 
-<img src"screencapture-127-0-0-1-5500-index-html-2025-05-13-13_53_28.png" width="100%"> 
+<p align="center">
+
+<img src="foto.png" width="100%" style="max-width:600px;">
 </p>
